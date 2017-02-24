@@ -1,0 +1,16 @@
+.task {
+	&__memo {
+		display: inline-block;
+		
+		padding: 5px 20px;
+		& textarea {
+			.input(115, 240);
+			padding: 5px;
+			outline: none;
+			border: none;
+			resize: none;
+			overflow: auto;
+			.bordered(solid, @color-border);
+		}
+	}
+}
